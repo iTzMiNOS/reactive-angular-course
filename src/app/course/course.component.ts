@@ -16,7 +16,6 @@ import {
 import {merge, fromEvent, Observable, concat, throwError,combineLatest} from 'rxjs';
 import {Lesson} from '../model/lesson';
 import { CoursesService } from '../services/courses.service';
-import { LoadingService } from '../loading/loading.service';
 import { ChangeDetectionStrategy } from '@angular/core';
 
 
